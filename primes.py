@@ -29,3 +29,23 @@ def is_prime(n):
 
     return True
 
+def first_n_primes(n):
+    """Returns the first n primes
+
+    :n: n
+
+    output is a list of integers
+    """
+
+    if not isinstance(n, int):
+        raise RuntimeError("Must ask for an integer number")
+
+    primes = []
+    current = 2
+
+    while len(primes) != n:
+        if is_prime(current):
+            primes.append(current)
+        current += 1
+
+    return primes
