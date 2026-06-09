@@ -1,6 +1,6 @@
 # Primes
 
-Description coming soon
+Wouldn't it be nice to have a description?
 
 ## Usage
 
